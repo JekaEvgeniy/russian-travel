@@ -1,0 +1,36 @@
+.place__title {
+	grid-area: title;
+
+	display: block;
+	margin : 0 0 1px 0;
+
+	font-weight     : 900;
+	font-size       : 72px;
+	/*
+		при line-height: 106% отклюнения с макетом pixel perfect (разница в 1px)
+	*/
+
+	line-height: 76px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.place__title {
+		font-size  : 42px;
+		line-height: 46px;
+		/*
+		line-height: 110%; отклюнения с макетом pixel perfect
+		line-height: 1.09524;
+	*/
+	}
+}
+
+@media all and (max-width: 767px) {
+	.place__title {
+		margin-bottom: 32px;
+		padding-left : 16px;
+		padding-right: 16px;
+
+		font-size  : 32px;
+		line-height: 35px;
+	}
+}

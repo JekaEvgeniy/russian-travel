@@ -1,0 +1,29 @@
+/*
+	Добавил обертку, т.к. используется grid area
+	+ нужно отменять отступы сверху/снизу у первого/последнего элемента
+*/
+
+.place__desc {
+	grid-area : desc;
+	margin-top: 48px;
+}
+
+.place__desc>:first-child {
+	margin-top: 0;
+}
+
+.place__desc>:last-child {
+	margin-bottom: 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.place__desc {
+		margin-top: 44px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.place__desc {
+		margin-top: 32px;
+	}
+}

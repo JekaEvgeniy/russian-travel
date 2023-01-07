@@ -1,0 +1,20 @@
+.places__item {
+	margin : 80px 0 0 0;
+	padding: 0;
+}
+
+.places__item:first-child {
+	margin-top: 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.places__item {
+		margin-top: 73px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.places__item {
+		margin-top: 50px;
+	}
+}

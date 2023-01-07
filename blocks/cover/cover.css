@@ -1,0 +1,42 @@
+/*
+	Далаем выравнивание текста по центру контейнера через
+	table и table-cell (На макете задана минимальная высота).
+	Кроссбразузерный рабочий код при переполнении контента.
+
+	Если выравнивание текста по центру и по вертикали будет через
+	display flex, то текст просто уедет	за пределы контейнера,
+	а этого мы никак не можем допустить. Да, лишняя обертка,
+	но зато ничего никуда не уехало.
+*/
+
+.cover {
+	margin-top   : 92px;
+	margin-bottom: 56px;
+}
+
+@media all and (min-width: 1280px) {
+	.cover {
+		padding-left : 48px;
+		padding-right: 48px;
+	}
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+	.cover {
+		margin-bottom: 55px;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.cover {
+		margin-top   : 90px;
+		margin-bottom: 51px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.cover {
+		margin-top   : 65px;
+		margin-bottom: 24px;
+	}
+}
