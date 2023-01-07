@@ -1,5 +1,6 @@
 # Проект: Путешествие по России
 * [Github](https://github.com/JekaEvgeniy/russian-travel)
+* [GitHub Pages](https://jekaevgeniy.github.io/russian-travel/)
 
 ## Интро
 'Путешествие по России'- это небольшой проект о путешествии по необъятной матушки рРссии. В даный проект адаптирован под мобильные устройства.
