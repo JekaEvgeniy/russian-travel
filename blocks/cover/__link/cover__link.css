@@ -3,7 +3,6 @@
 	display : table-cell;
 
 	box-sizing: border-box;
-	/* Если текста будет больше - добавляем отступ*/
 	padding   : 195px 48px;
 
 	vertical-align: middle;

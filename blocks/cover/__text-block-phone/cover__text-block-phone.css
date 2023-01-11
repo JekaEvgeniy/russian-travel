@@ -1,6 +1,5 @@
 @media all and (max-width: 767px) {
 	.cover__text-block-phone {
-		/* Чтобы было как на макете - pixel perfect */
 		display: block;
 	}
 }

@@ -1,0 +1,5 @@
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.place__tablet-word-wrap {
+		display: block;
+	}
+}

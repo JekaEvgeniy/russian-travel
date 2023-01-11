@@ -3,9 +3,6 @@
 
 	grid-template-columns: 460px 1fr;
 	gap                  : 0 40px;
-
-	/* Делаю через grid-template-areas, т.к. если у элемента не будет блока с website, то изображение будет напротив заголовка (справа) */
-
 	grid-template-areas: "title url"
 											 "pic desc";
 }

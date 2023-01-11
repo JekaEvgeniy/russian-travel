@@ -6,10 +6,6 @@
 
 	font-weight     : 900;
 	font-size       : 72px;
-	/*
-		при line-height: 106% отклюнения с макетом pixel perfect (разница в 1px)
-	*/
-
 	line-height: 76px;
 }
 
@@ -17,10 +13,6 @@
 	.place__title {
 		font-size  : 42px;
 		line-height: 46px;
-		/*
-		line-height: 110%; отклюнения с макетом pixel perfect
-		line-height: 1.09524;
-	*/
 	}
 }
 

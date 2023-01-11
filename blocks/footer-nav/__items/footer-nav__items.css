@@ -9,6 +9,6 @@
 @media all and (max-width: 767px) {
 	.footer-nav__items {
 		flex-direction: column;
-		align-items   : flex-start; /* Чтобы ссылки были не во всю ширину или им задать inline-block*/
+		align-items   : flex-start;
 	}
 }

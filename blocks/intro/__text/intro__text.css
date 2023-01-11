@@ -4,10 +4,6 @@
 	max-width: 690px;
 
 	font-size   : 16px;
-	/*
-		line-height: 163%;
-		при 163% отклюнения с макетом pixel perfect, разница в 1px
-	*/
 	line-height : 1.625;
 }
 
